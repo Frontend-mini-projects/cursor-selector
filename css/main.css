@@ -1,0 +1,206 @@
+* {
+    /* font-weight: bold; */
+    font-size: large;
+
+}
+
+.auto {
+    cursor: auto;
+}
+
+.default {
+    cursor: default;
+}
+
+.none {
+    cursor: none;
+}
+
+.context-menu {
+    cursor: context-menu;
+}
+
+.help {
+    cursor: help;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.progress {
+    cursor: progress;
+}
+
+.wait {
+    cursor: wait;
+}
+
+.cell {
+    cursor: cell;
+}
+
+.crosshair {
+    cursor: crosshair;
+}
+
+.text {
+    cursor: text;
+}
+
+.vertical-text {
+    cursor: vertical-text;
+}
+
+.alias {
+    cursor: alias;
+}
+
+.copy {
+    cursor: copy;
+}
+
+.move {
+    cursor: move;
+}
+
+.no-drop {
+    cursor: no-drop;
+}
+
+.not-allowed {
+    cursor: not-allowed;
+}
+
+.all-scroll {
+    cursor: all-scroll;
+}
+
+.col-resize {
+    cursor: col-resize;
+}
+
+.row-resize {
+    cursor: row-resize;
+}
+
+.n-resize {
+    cursor: n-resize;
+}
+
+.e-resize {
+    cursor: e-resize;
+}
+
+.s-resize {
+    cursor: s-resize;
+}
+
+.w-resize {
+    cursor: w-resize;
+}
+
+.ns-resize {
+    cursor: ns-resize;
+}
+
+.ew-resize {
+    cursor: ew-resize;
+}
+
+.ne-resize {
+    cursor: ne-resize;
+}
+
+.nw-resize {
+    cursor: nw-resize;
+}
+
+.se-resize {
+    cursor: se-resize;
+}
+
+.sw-resize {
+    cursor: sw-resize;
+}
+
+.nesw-resize {
+    cursor: nesw-resize;
+}
+
+.nwse-resize {
+    cursor: nwse-resize;
+}
+
+
+body {
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+
+}
+
+.cursors {
+    display: flex;
+    flex-wrap: wrap;
+    /* border: 2px solid green; */
+
+}
+
+.cursors>div {
+    flex: 150px;
+    padding: 10px 2px;
+    white-space: nowrap;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    margin: 0 5px 5px 0;
+
+}
+
+.cursors>div:hover {
+    background: white;
+    box-shadow: 10px 10px 46px #a4a4a4,
+        -10px -10px 46px #ffffff;
+}
+
+
+
+
+.container {
+    border-radius: 5px;
+    /* border: 2px solid gray; */
+    padding: 2px;
+    display: block;
+    margin: auto;
+    width: 40%;
+    padding: 0.1rem 0.8rem;
+    /* height: 95vh; */
+
+    border-radius: 12px;
+    background: #e0e0e0;
+    box-shadow: 10px 10px 46px #747474,
+        -10px -10px 46px #ffffff;
+
+}
+
+#stylebox {
+    padding: 0.3rem;
+}
+
+#stylebox {
+    border-radius: 5px;
+    background-color: black;
+    margin-bottom: 10px;
+}
+
+#text {
+    color: rgb(91, 207, 236);
+}
+
+#cursorvalue {
+    color: lightyellow;
+}
+.container p{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: larger;
+    text-shadow: 1px 2px 2px rgba(0,0,0,0.6);
+}
